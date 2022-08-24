@@ -1,0 +1,46 @@
+.todo-body{
+    width: 100%;
+    min-height: 500px;
+    background:linear-gradient(45deg,rgba(225, 210, 210, 0.63),rgba(255, 255, 255, 0.1));
+    border: solid;
+    margin-top: 20px;
+    padding: 20px;
+    .todos{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 3px solid #131216;
+        margin-bottom: 10px;
+        padding: 10px;
+        background: linear-gradient(45deg, #6f8acc, #8e64b5,transparent);
+        
+        h1{
+            font-family: system-ui;
+            color: #000000;
+        }
+        &-delete{
+            margin: 0px 10px 0px auto;
+            font-size: 30px;
+            transition: 0.1s;
+        }
+        &-done{
+            font-size: 30px;
+            transition: 0.1s;
+        }
+
+        &-delete:active{
+            color: red;
+        }
+        &-delete:active +  h1{
+            color: white;
+        }
+        &-done:active{
+            color: rgb(38, 245, 38);
+        }
+    }
+}
+.done{
+    text-decoration: line-through;
+    text-decoration-color: #00bcd4
+}

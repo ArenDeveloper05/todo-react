@@ -1,0 +1,15 @@
+.todo{
+    width: 1000px;
+    min-height: 500px;
+    border-radius: 20px;
+    background: linear-gradient(45deg,rgb(158, 88, 223),rgb(202, 69, 69));
+    box-shadow: 2px 4px 10px 1px;
+    margin: auto;
+    padding: 50px;
+    h1{
+        font-family: system-ui;
+        span{
+            color: #64ffa8;
+        }
+    }
+}
